@@ -1,0 +1,17 @@
+@media(max-width:1000px){
+:root{
+    --my-color:#29cd7d;
+  }
+}
+
+@media(min-width:1001px){
+    :root{
+        --my-color: #8500ea
+    }
+}
+
+/* Empfehlung:
+padding
+schriftarten
+schriftgrössen
+ */
