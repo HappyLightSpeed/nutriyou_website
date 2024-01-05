@@ -1,17 +1,119 @@
-@media(max-width:1000px){
-:root{
-    --my-color:#29cd7d;
-  }
-}
-
-@media(min-width:1001px){
-    :root{
-        --my-color: #8500ea
-    }
-}
-
 /* Empfehlung:
 padding
 schriftarten
 schriftgrössen
  */
+
+ /* Navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+nav a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+nav a:hover{
+    color: var(--my-color);
+}
+
+
+ /* Schriften */
+:root{
+    --font-title: 'Lexend Deca', 'Arial', sans-serif;
+    --font-p: 'DM Sans' 'Arial', sans-serif;
+}
+
+ h1{
+     font-family: var(--font-title);
+     font-weight: 500;
+     font-size: 36;
+ }
+ h2{
+    font-family: var(--font-title);
+    font-weight: 500;
+    font-size: 30;
+ }
+ h3{
+    font-family: var(--font-title);
+    font-weight: 500;
+    font-size: 24;
+ }
+ h4{
+    font-family: var(--font-title);
+    font-weight: 500;
+    font-size: 20;
+ }
+ p{
+    font-family: var(--font-p);
+    font-weight: 400;
+    font-size: 16;
+ }
+ nav a{
+    font-family: var(--font-p);
+    font-weight: 700;
+    font-size: 20;
+    color: var(--white);
+ }
+
+/* Farben */
+:root{
+    --healthy-light:#AACE6B;
+    --healthy-dark:#3A6462;
+    --delight:E57249;
+    --white:#FFFFFF;
+    --gray:#696969;
+    --black:#000;
+}
+
+/* Buttons */
+.btn1{
+    background-color: var(--healthy-light);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn1:hover{
+    background-color: var(--healthy-dark);
+}
+.btn2{
+    background-color: var(--delight);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn2:hover{
+    background-color: #D26037;
+}
+.btn3{
+    background-color: var(--white);
+    color: var(--healthy-light);
+    border: var(--healthy-light);
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn3:hover{
+    color: var(--healthy-dark);
+    border-color: var(--healthy-dark);
+}
+
