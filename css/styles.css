@@ -1,24 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '--font-p', 'Arial', sans-serif;
+}
+
 /* Header */
 header {
     background-color: var(--healthy-dark);
     height: 70px;
-    padding-left: 372px;
-    padding-right: 375px;
-}
-
-/* Flexbox Layout */
-/* header, nav, section, footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
-
-/* Navigation styles */
-nav {
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+    padding-left: 370px;
+    padding-right: 370px;
 }
 
 /* Hero section styles */
@@ -26,7 +18,6 @@ nav {
     position: relative;
     text-align: center;
 }
-
 .center-left{
     text-align: left;
     position: absolute;
@@ -36,7 +27,7 @@ nav {
 
 /* Features section styles */
 .features {
-    flex-direction: column;
+    flex-direction: row;
 }
 
 /* Reviews section styles */
@@ -53,9 +44,19 @@ nav {
 }
 
 /* Footer styles */
-footer {
-    flex-direction: column;
-}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 2 / 1 / 3 / 4; }
+    .div5 { grid-area: 3 / 1 / 4 / 4; }
 
 /* Media Queries */
 @media (min-width: 768px) {

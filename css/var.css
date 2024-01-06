@@ -35,6 +35,13 @@ schriftgrössen
     font-weight: 400;
     font-size: 16;
  }
+ link{
+    font-family: var(--font-p);
+    font-weight: 400;
+    font-size: 16;
+    color: var(--healthy-light);
+    text-decoration: underline;
+ }
  nav a{
     font-family: var(--font-p);
     font-weight: 700;
