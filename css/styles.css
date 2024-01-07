@@ -16,11 +16,14 @@ header {
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* flex-wrap: wrap; */
     align-items: center;
     padding-top: 5px;
 }
-.main{
+nav p{
+    margin-right: 20px;
+}
+main{
     padding: 20px;
     gap: 20px;
     display: flex;
@@ -29,42 +32,42 @@ nav {
     align-items: center;
 }
 /* Hero section styles */
-.hero{
+hero{
     
     text-align: center;
     padding-top: 0px;
 }
-.hero-text{
+hero-text{
     display: flex;
     flex-direction: column;
 }
-.hero-center-left{
+hero-center-left{
     text-align: left;
     position: absolute;
     top: 84px;
     left: 250px;
 }
-.hero-center-left1{
+hero-center-left1{
     text-align: left;
     position: absolute;
     top: 104px;
     left: 250px;
 }
-.hero-center-left2{
+hero-center-left2{
     text-align: left;
     position: absolute;
-    top: 104px;
+    top: 110px;
     left: 290px;
 }
 
 /* Features section styles */
-.features{
+features{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 20px;
 }
-.features-text{
+features-text{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,13 +75,13 @@ nav {
     text-align: left;
 }
 /* Reviews section styles */
-.reviews {
+reviews {
     flex-direction: row;
     justify-content: center;
 }
 
 /* Partners section styles */
-.partners {
+partners {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -97,7 +100,7 @@ nav {
 
 
 /* Footer styles */
-.footer {
+footer {
     background-color: var(--black);
     color: var(--white);
     display: grid;

@@ -6,32 +6,32 @@ schriftgrössen
 
  /* Schriften */
 :root{
-    --font-title: 'Lexend Deca', 'Arial', sans-serif;
-    --font-p: 'DM Sans' 'Arial', sans-serif;
+    --font-title: 'Lexend Deca', sans-serif;
+    --font-p: 'DM Sans', sans-serif;
 }
 
  h1{
-     font-family: var(--font-title);
+     font-family: var(--font-title), 'Arial', sans-serif;
      font-weight: 500;
      font-size: 36;
  }
  h2{
-    font-family: var(--font-title);
+    font-family: var(--font-title) 'Arial', sans-serif;
     font-weight: 500;
     font-size: 30;
  }
  h3{
-    font-family: var(--font-title);
+    font-family: var(--font-title) 'Arial', sans-serif;
     font-weight: 500;
     font-size: 24;
  }
  h4{
-    font-family: var(--font-title);
+    font-family: var(--font-title) 'Arial', sans-serif;
     font-weight: 500;
     font-size: 20;
  }
  p{
-    font-family: var(--font-p);
+    font-family: var(--font-p) 'Arial', sans-serif;
     font-weight: 400;
     font-size: 16;
  }
@@ -42,6 +42,13 @@ schriftgrössen
     color: var(--healthy-light);
     text-decoration: underline;
  }
+ nav{
+    font-family: var(--font-p);
+    font-weight: 700;
+    font-size: 20;
+    color: var(--white);
+    text-decoration: none;
+}
  nav a{
     font-family: var(--font-p);
     font-weight: 700;
@@ -58,7 +65,7 @@ nav a:hover{
 :root{
     --healthy-light:#AACE6B;
     --healthy-dark:#3A6462;
-    --delight:E57249;
+    --delight: #E57249;
     --white:#FFFFFF;
     --gray:#696969;
     --black:#000;
