@@ -60,6 +60,12 @@ schriftgrössen
 nav a:hover{
     color: var(--healthy-light);
 }
+blockquote{
+    font-family: var(--font-title) 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 20;
+    color: var(--gray);
+}
 
 /* Farben */
 :root{
@@ -117,3 +123,60 @@ nav a:hover{
     border-color: var(--healthy-dark);
 }
 
+/* Pricecards */
+.pricecard{
+    width: 335px;
+    height: 440px;
+    background-color: var(--healthy-light);
+    border-color: var(--healthy-dark);
+    border: 5px;
+    border-radius: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Slider 2 Buttons & Bullet points or whatever they're called*/
+.sliderL{
+    width: 60px;
+    height: 60px;
+    background-color: var(--delight);
+    border: solid var(--healthy-dark);
+    border-width: 2px;
+    border-radius: 100px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.sliderR{
+    width: 60px;
+    height: 60px;
+    background-color: var(--healthy-light);
+    border: solid var(--healthy-dark);
+    border-width: 2px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.arrow{
+    border: solid var(--healthy-dark);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+}
+/*   
+.arrow{
+    border: solid var(--healthy-dark);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+}
+.left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+} */
