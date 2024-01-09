@@ -65,7 +65,7 @@ main{
     top: 194px;
     left: 398px;
 }
-.hero p{
+.hero-below{
     position: absolute;
     display: flex;
     width: 688px;
