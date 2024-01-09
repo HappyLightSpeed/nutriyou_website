@@ -101,6 +101,11 @@ main{
 .reviews p{
     text-align: right;
 }
+.reviews .sliderL{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
 
 /* Partners section styles */
 .partners {
