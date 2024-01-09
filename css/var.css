@@ -127,14 +127,66 @@ blockquote{
 .pricecard{
     width: 335px;
     height: 440px;
-    background-color: var(--healthy-light);
+    background: linear-gradient(180deg, var(--healthy-light) 92%, var(--healthy-dark) 100%);
     border-color: var(--healthy-dark);
-    border: 5px;
+    border: 5px solid var(--healthy-dark);
     border-radius: 24px;
-    padding: 10px 20px;
+    padding: 40px 24px;
+    gap: 32px;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: center;    
+}
+.price{
+    width: 108px;
+    height: 73px;
+    position: relative;
+}
+.textBlock{
+    width: 70px;
+    height: 18px;
+    left: 19px;
+    top: 0px;
+    position: absolute;
+}
+.shape{
+    width: 70px;
+    height: 18px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: var(--healthy-dark);
+    border-radius: 9px;
+}
+.gratis{
+    left: 0px;
+    top: 28px;
+    position: absolute;
+    text-align: center;
+    color: var(--white);
+    font-size: 36px;
+    font-family: var(--font-title);
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.pricecard ul{
+    width: 173px;
+    height: 193px;
+    color: var(--black);
+    font-size: 20px;
+    font-family: var(--font-title);
+    font-weight: 500;
+    word-wrap: break-word;
+    list-style-type: disc;
+}
+.pricecard .strikethrough{
+    color: var(--gray);
+    text-decoration: line-through;
 }
 
-/* Slider 2 Buttons & Slide Dots*/
+/* Slider: 2 Buttons & Slide Dots*/
 .sliderL{
     width: 60px;
     height: 60px;
