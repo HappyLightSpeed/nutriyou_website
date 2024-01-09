@@ -228,3 +228,19 @@ blockquote{
 .elipse:active{
     background-color: var(--healthy-light);
 }
+
+/* Store Badges */
+.storeBadgeApple{
+    width: 132px;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.storeBadgeGoogle{
+    width: 146px;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}

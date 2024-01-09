@@ -36,40 +36,38 @@ main{
 /* Hero section styles */
 .hero{
     position: relative;
-    display: flex;
-    width: 100vw;
-    text-align: center;
-    padding-top: 0px;
-}
-hero-text{
-    display: flex;
-    flex-direction: column;
-}
-hero-center-left{
-    text-align: left;
-    position: absolute;
-    top: 84px;
-    left: 250px;
-}
-hero-center-left1{
-    text-align: left;
-    position: absolute;
-    top: 104px;
-    left: 250px;
-}
-hero-center-left2{
-    text-align: left;
-    position: absolute;
-    top: 110px;
-    left: 290px;
-}
-.hero img{
     width: 100%;
-    z-index: -1;
+    height: auto;
+    /* left: 0px;
+    top: 0px; */
+}
+.heroImg{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+}
+.hero h1{
+    position: absolute;
+    width: 569px;
+    height: 88px;
+    left: 256px;
+    top: 84px;
+}
+.hero .storeBadgeApple{
+    position: absolute;
+    top: 200px;
+    left: 256px;
+}
+.hero .storeBadgeGoogle{
+    position: absolute;
+    top: 194px;
+    left: 398px;
 }
 .hero p{
+    position: absolute;
     display: flex;
-
     width: 688px;
 }
 /* Features section styles */
