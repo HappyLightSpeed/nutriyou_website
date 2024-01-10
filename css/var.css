@@ -62,9 +62,9 @@ nav a:hover{
 }
 blockquote{
     font-family: var(--font-title) 'Arial', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20;
-    color: var(--gray);
+    color: var(--healthy-dark);
 }
 
 /* Farben */

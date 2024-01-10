@@ -89,7 +89,7 @@ main{
     width: 333px;
 }
 /* Reviews section styles */
-.reviews {
+/* .reviews {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -122,14 +122,15 @@ main{
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-}
+} */
+
+
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
 }
-
 .mySlides /* Hide the images by default */ {
     display: none;
 }
@@ -139,29 +140,33 @@ main{
     margin-top: -22px;
     transition: 0.6s ease;
 }
-.next {
-    right: 0;
+.prev{
+    left: -80px;
 }
-/* Tex of the Reviews */
+.next{
+    right: -80px;
+}
+/* Text of the Reviews */
 .slideshow-container .text {
-    color: var(--healthy-dark);
-    font-size: 20px;
     padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
+    position: relative;
+    top: 14px;
+    width: 360px;
     text-align: center;
 }
+.slideshow-container .text blockquote{ 
+    padding-left: 120px;
+}
 .slideshow-container .text p{
-    color: var(--healthy-dark);
+    color: var(--gray);
     text-align: right;
+    font-weight: 600;
 }
 /* The dots/bullets/indicators */
 .dot{
     margin: 0 2px;
     display: inline-block;
 }
-
 .fade { /* Fading animation */
     -webkit-animation-name: fade;
     -webkit-animation-duration: 0.5s;
@@ -172,6 +177,7 @@ main{
     from {opacity: .4} 
     to {opacity: 1}
 }
+
 
 /* Partners section styles */
 .partners {
