@@ -8,11 +8,11 @@
 
 /* Header */
 header {
+    display: flex;
+    justify-content: center;
     margin: 0;
     background-color: var(--healthy-dark);
     height: 70px;
-    padding-left: 370px;
-    padding-right: 370px;
 }
 nav {
     display: flex;
@@ -88,43 +88,17 @@ main{
 .features p {
     width: 333px;
 }
+
+
 /* Reviews section styles */
-/* .reviews {
+.reviews {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-top: 120px;
     gap: 20px;
 }
-.reviews blockquote{
-    width: 333px;
-}
-.reviews p{
-    text-align: right;
-}
-.slider {
-    position: relative;
-}
-.sliderL,
-.sliderR {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.sliderL {
-    left: 10px;
-}
-.sliderR {
-    right: 10px;
-}
-
-.slideDots {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-} */
-
-
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
@@ -133,25 +107,26 @@ main{
 }
 .mySlides /* Hide the images by default */ {
     display: none;
+    text-align: center;
 }
 .prev, .next /* Buttons */{ 
     position: absolute;
-    top: 50%;
+    top: 30%;
     margin-top: -22px;
     transition: 0.6s ease;
 }
 .prev{
-    left: -80px;
+    left: -10px;
 }
 .next{
-    right: -80px;
+    right: -10px;
 }
 /* Text of the Reviews */
 .slideshow-container .text {
     padding: 8px 12px;
     position: relative;
     top: 14px;
-    width: 360px;
+    width: 600px;
     text-align: center;
 }
 .slideshow-container .text blockquote{ 
@@ -161,6 +136,7 @@ main{
     color: var(--gray);
     text-align: right;
     font-weight: 600;
+    padding-right: 20px;
 }
 /* The dots/bullets/indicators */
 .dot{
@@ -181,21 +157,30 @@ main{
 
 /* Partners section styles */
 .partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    gap: 20px;
+}
+.partnersArc {
+    margin: 10px 20px;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
-    .partners1 { grid-area: 6 / 1 / 7 / 2; }
-    .partners2 { grid-area: 4 / 2 / 5 / 3; }
-    .partners3 { grid-area: 2 / 4 / 3 / 5; }
-    .partners4 { grid-area: 1 / 6 / 2 / 7; }
-    .partners5 { grid-area: 2 / 8 / 3 / 9; }
-    .partners6 { grid-area: 4 / 10 / 5 / 11; }
-    .partners7 { grid-area: 6 / 11 / 7 / 12; }
-    .partners8 { grid-area: 4 / 6 / 5 / 7; }
-    .partners9 { grid-area: 5 / 5 / 7 / 8; }
+    .partnersArc1 { grid-area: 6 / 1 / 7 / 2; }
+    .partnersArc2 { grid-area: 4 / 2 / 5 / 3; }
+    .partnersArc3 { grid-area: 2 / 4 / 3 / 5; }
+    .partnersArc4 { grid-area: 1 / 6 / 2 / 7; }
+    .partnersArc5 { grid-area: 2 / 8 / 3 / 9; }
+    .partnersArc6 { grid-area: 4 / 10 / 5 / 11;}
+    .partnersArc7 { grid-area: 6 / 11 / 7 / 12;}
+    .partnersArc8 { grid-area: 4 / 6 / 5 / 7; }
+    .partnersArc9 { grid-area: 5 / 5 / 7 / 8; }
 
 
 /* Footer styles */
@@ -204,19 +189,26 @@ footer {
     color: var(--white);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     padding: 20px 256px;
     }
     
     .footer1 { grid-area: 1 / 1 / 2 / 2; }
-    .footer2 { grid-area: 1 / 2 / 2 / 3; }
-    .footer3 { grid-area: 1 / 3 / 2 / 4; }
+    .footer2 { grid-area: 1 / 2 / 2 / 3; display: flex; justify-content: center;}
+    .footer3 { grid-area: 1 / 3 / 2 / 4; display: flex; justify-self: right; }
     .footer4 { grid-area: 2 / 1 / 3 / 4; }
     .footer5 { grid-area: 3 / 1 / 4 / 4; }
 footer p{
     text-align: center;
+}
+.footer2 p{
+    text-align: left;
+}
+.footer a{
+    color: var(--white);
+    text-decoration: none;
 }
 footer .socials{
     display: flex;
