@@ -187,7 +187,7 @@ blockquote{
 }
 
 /* Slider: 2 Buttons & Slide Dots*/
-.sliderL{
+.prev{
     width: 60px;
     height: 60px;
     background-color: var(--delight);
@@ -197,7 +197,7 @@ blockquote{
     padding: 18px 20px;
     cursor: pointer;
 }
-.sliderR{
+.next{
     width: 60px;
     height: 60px;
     background-color: var(--healthy-light);
@@ -207,25 +207,18 @@ blockquote{
     padding: 18px 20px;
     cursor: pointer;
 }
-.slideDots{
-    width: 52px;
-    height: 12px;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 8px;
-    display: inline-flex;
+.prev:hover, .next:hover {
+    background-color: var(--white);
 }
-.elipse{
+.dot{
     width: 12px;
     height: 12px;
     border: 2px var(--healthy-dark) solid;
     border-radius: 100px;
+    transition: background-color 0.4s ease;
     cursor: pointer;
 }
-.elipse:hover{
-    background-color: var(--healthy-light);
-}
-.elipse:active{
+.active, .dot:hover{
     background-color: var(--healthy-light);
 }
 
