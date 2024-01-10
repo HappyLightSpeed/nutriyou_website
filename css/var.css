@@ -8,6 +8,7 @@ schriftgrössen
 :root{
     --font-title: 'Lexend Deca', sans-serif;
     --font-p: 'DM Sans', sans-serif;
+    --section-gap: 100px;
 }
 
  h1{
