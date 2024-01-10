@@ -143,7 +143,7 @@ main{
     right: 0;
 }
 /* Tex of the Reviews */
-.text {
+.slideshow-container .text {
     color: var(--healthy-dark);
     font-size: 20px;
     padding: 8px 12px;
@@ -152,7 +152,7 @@ main{
     width: 100%;
     text-align: center;
 }
-.text p{
+.slideshow-container .text p{
     color: var(--healthy-dark);
     text-align: right;
 }
@@ -164,9 +164,9 @@ main{
 
 .fade { /* Fading animation */
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 0.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 0.5s;
 }
 @keyframes fade {
     from {opacity: .4} 
