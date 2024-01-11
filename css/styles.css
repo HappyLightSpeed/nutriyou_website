@@ -215,7 +215,6 @@ footer{
     margin-top: var(--section-gap);
     font-weight: 500;
     }
-    
     .footer1 { grid-area: 1 / 1 / 2 / 2; }
     .footer2 { grid-area: 1 / 2 / 2 / 3; display: flex; justify-content: center;}
     .footer3 { grid-area: 1 / 3 / 2 / 4; display: flex; justify-self: right; }
@@ -242,6 +241,8 @@ footer .socials{
 
 /* Media Queries */
 @media (max-width: 768px) {
+    /* Header */
+    
     /* Features */
     .featuresArticle{
         flex-direction: column;
