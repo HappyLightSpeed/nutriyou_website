@@ -15,6 +15,7 @@ header {
     height: 70px;
 }
 nav {
+    flex: 1;
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
@@ -241,14 +242,22 @@ footer .socials{
 
 /* Media Queries */
 @media (max-width: 768px) {
+    /* Features */
     .featuresArticle{
         flex-direction: column;
     }
+    .featuresArticle p{
+        width: 100%;
+    }
+    /* Reviews */
     .slideshow-container{
         max-width: 400px;
     }
-    .slideshow-container .text{
-        width: 600px;
+    .slideshow-container .text {
+        width: 100%;
+    }
+    .slideshow-container .text blockquote{ 
+        padding-left: 0;
     }
 }
 @media (max-width: 1100px) {
