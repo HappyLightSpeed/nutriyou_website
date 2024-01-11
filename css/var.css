@@ -1,16 +1,10 @@
-/* Empfehlung:
-padding
-schriftarten
-schriftgrössen
- */
-
- /* Schriften */
 :root{
+    --section-gap: 100px;
     --font-title: 'Lexend Deca', sans-serif;
     --font-p: 'DM Sans', sans-serif;
-    --section-gap: 100px;
 }
 
+/* Schriften */
  h1{
      font-family: var(--font-title), 'Arial', sans-serif;
      font-weight: 500;
