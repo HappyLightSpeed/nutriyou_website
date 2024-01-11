@@ -42,6 +42,10 @@ main{
     position: relative;
     width: 100%;
     margin-bottom: 20px;
+    background-image: url("../img/media/01%20Startseite%2001%20Header.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 100%;
 }
 .heroPart{
     display: flex;
@@ -49,12 +53,11 @@ main{
     align-items: center;
     width: 100%;
 }
-.heroImg{
+/* .heroImg{
     width: 100%;
     height: auto;
-}
+} */
 .heroContent{
-    position: absolute;
     text-align: center;
     padding: 40px;
 }
@@ -185,15 +188,15 @@ main{
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
-    .partnersArc1 { grid-area: 6 / 1 / 7 / 2; }
-    .partnersArc2 { grid-area: 4 / 2 / 5 / 3; }
-    .partnersArc3 { grid-area: 2 / 4 / 3 / 5; }
-    .partnersArc4 { grid-area: 1 / 6 / 2 / 7; }
-    .partnersArc5 { grid-area: 2 / 8 / 3 / 9; }
-    .partnersArc6 { grid-area: 4 / 10 / 5 / 11;}
-    .partnersArc7 { grid-area: 6 / 11 / 7 / 12;}
-    .partnersArc8 { grid-area: 4 / 6 / 5 / 7; }
-    .partnersArc9 { grid-area: 5 / 5 / 7 / 8; }
+    .partnersArc1 { grid-area: 6 / 1 / 7 / 2; place-self: center;}
+    .partnersArc2 { grid-area: 4 / 2 / 5 / 3; place-self: center;}
+    .partnersArc3 { grid-area: 2 / 4 / 3 / 5; place-self: center;}
+    .partnersArc4 { grid-area: 1 / 6 / 2 / 7; place-self: center;}
+    .partnersArc5 { grid-area: 2 / 8 / 3 / 9; place-self: center;}
+    .partnersArc6 { grid-area: 4 / 10 / 5 / 11; place-self: center;}
+    .partnersArc7 { grid-area: 6 / 11 / 7 / 12; place-self: center;}
+    .partnersArc8 { grid-area: 4 / 6 / 5 / 7; place-self: center;}
+    .partnersArc9 { grid-area: 5 / 4 / 7 / span 5; }
 .partners p{
     padding: 15px;
 }
@@ -237,7 +240,7 @@ footer .socials{
 }
 
 /* Media Queries */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     header, nav, section, footer {
         flex-direction: row;
     }
@@ -245,8 +248,34 @@ footer .socials{
     .features, .partners, footer {
         justify-content: space-between;
     }
-}
+} */
+@media (max-width: 1100px) {
+    .partnersArc{
+        margin: 10px 30px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .partnersArc1 { grid-area: 4 / 1 / span 1 / span 1; place-self: center;}
+    .partnersArc2 { grid-area: 3 / 1 / span 1 / span 1; place-self: center;}
+    .partnersArc3 { grid-area: 2 / 1 / span 1 / span 1; place-self: center;}
+    .partnersArc4 { grid-area: 1 / 3 / span 1 / span 1; place-self: center;} /* middle */
+    .partnersArc5 { grid-area: 2 / 5 / span 1 / span 1; place-self: center;}
+    .partnersArc6 { grid-area: 3 / 5 / span 1 / span 1; place-self: center;}
+    .partnersArc7 { grid-area: 4 / 5 / span 1 / span 1; place-self: center;}
+    .partnersArc8 { grid-area: 2 / 3 / span 1 / span 1; place-self: center;}
+    .partnersArc9 { grid-area: 3 / 2 / span 2 / span 3; }
 
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+
+    }
+}
 @media (min-width: 1024px) {
     .reviews {
         justify-content: space-between;
