@@ -33,49 +33,48 @@ main{
     align-items: center;
     justify-content: center;
 }
+
 /* Hero section styles */
 .hero{
-    position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
 }
 .heroPart{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    height: auto;
-    /* left: 0px;
-    top: 0px; */
 }
 .heroImg{
-    position: relative;
     width: 100%;
     height: auto;
-    left: 0px;
-    top: 0px;
 }
-.hero h1{
+.heroContent{
     position: absolute;
-    width: 569px;
-    height: 88px;
-    left: 256px;
-    top: 84px;
+    text-align: center;
+    padding: 40px;
 }
-.hero .storeBadgeApple{
-    position: absolute;
-    top: 200px;
-    left: 256px;
+.heroContent h1{
+    margin: 0;
+    padding: 0;
 }
-.hero .storeBadgeGoogle{
-    position: absolute;
-    top: 194px;
-    left: 398px;
-}
-.hero p{
+.heroContent p{
     max-width: 690px;
+    margin-top: 20px;
 }
+.storeBadges{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.storeBadgeApple, .storeBadgeGoogle{
+    height: 50px;
+}
+
 /* Features section styles */
 .features{
     display: flex;
@@ -178,7 +177,7 @@ main{
     margin-top: var(--section-gap);
     gap: 20px;
 }
-.partnersArc {
+.partnersArc{
     margin: 10px 20px;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
@@ -195,18 +194,22 @@ main{
     .partnersArc7 { grid-area: 6 / 11 / 7 / 12;}
     .partnersArc8 { grid-area: 4 / 6 / 5 / 7; }
     .partnersArc9 { grid-area: 5 / 5 / 7 / 8; }
-
+.partners p{
+    padding: 15px;
+}
 
 /* Footer styles */
-footer {
+footer{
     background-color: var(--black);
     color: var(--white);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-row-gap: 40px;
     padding: 20px 256px;
+    margin-top: var(--section-gap);
+    font-weight: 500;
     }
     
     .footer1 { grid-area: 1 / 1 / 2 / 2; }
@@ -216,6 +219,7 @@ footer {
     .footer5 { grid-area: 3 / 1 / 4 / 4; }
 footer p{
     text-align: center;
+    font-weight: 500;
 }
 .footer2 p{
     text-align: left;
