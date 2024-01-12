@@ -375,11 +375,26 @@ footer .socials{
 }
 
 /* 'Über uns' page */
-.who-we-are, .simplifying-health, .location {
+/* Who we are */
+.aboutUs{
+    max-width: 454px;
+}
+.aboutUsArticle{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
+    margin-top: var(--section-gap);
+    gap: 20px;
+}
+.aboutUsVideo{
+    max-width: 600px;
+    height: auto;
+}
+@media screen and (max-width: 768px) {
+    .aboutUsVideo{
+        max-width: 450px;
+    }
 }
 
 /* 'Kontakt' page */
