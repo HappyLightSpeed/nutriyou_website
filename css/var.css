@@ -159,15 +159,13 @@ blockquote{
     border-radius: 9px;
 }
 .gratis{
-    left: 0px;
     top: 28px;
-    position: absolute;
+    position: relative;
     text-align: center;
     color: var(--white);
-    font-size: 36px;
+    font-size: 34px;
     font-family: var(--font-title);
     font-weight: 500;
-    word-wrap: break-word;
 }
 .pricecard ul{
     width: 173px;

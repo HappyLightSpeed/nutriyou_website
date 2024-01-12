@@ -100,7 +100,6 @@ main{
     align-items: left;
     text-align: left;
     padding: 20px;
-    
 }
 .featuresArticle p {
     width: 333px;
@@ -258,6 +257,9 @@ footer .socials{
     .featuresArticle p{
         width: 100%;
     }
+    .angebotArticle p{
+        width: 100%;
+    }
     /* Reviews */
     .slideshow-container{
         max-width: 410px;
@@ -305,11 +307,71 @@ footer .socials{
 
 /* Additional styles */
 /* 'Angebot' page */
-.app-info, .instruction, .pricing {
+/* Instructions section styles */
+.instructions{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
+    margin-top: var(--section-gap);
+    gap: 20px;
+}
+/* Slideshow container */
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.myScreenshots /* Hide the images by default */ {
+    /* display: none; */
+    text-align: center;
+}
+.myScreenshots img{
+    max-width: 260px;
+    border-radius: 25px;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.prev, .next /* Buttons */{ 
+    position: relative;
+}
+.prev{
+    left: -70px;
+}
+.next{
+    right: -70px;
+}
+/* Text of the Instructions */
+.slideshow-container-screenshots .text {
+    padding: 8px 12px;
+    position: relative;
+    top: 14px;
+}
+.slideshow-container-screenshots h4, .slideshow-container-screenshots p{
+    text-align: center;
+}
+
+/* Preismodelle */
+.preismodelle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--section-gap);
+    gap: 20px;
+}
+.preisaufteilung{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 /* 'Über uns' page */
