@@ -49,7 +49,7 @@ main{
     margin-bottom: 20px;
     background-image: url("../img/media/01_Startseite_01_Header.png");
     background-repeat: no-repeat;
-    background-size: center;
+    background-position: top;
     background-size: 100%;
 }
 .heroPart{
@@ -97,7 +97,7 @@ main{
 .features-text{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: start;
     text-align: left;
     padding: 20px;
 }
@@ -239,7 +239,7 @@ footer .socials{
 }
 
 /* Media Queries */
-@media (max-width: 500px) {
+@media (max-width: 555px) {
     /* Header */
     nav{
         flex-direction: column;
@@ -466,7 +466,7 @@ input[type=submit]{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: start;
     gap: 20px;
     width: 455px;
 }
@@ -476,7 +476,7 @@ input[type=submit]{
     flex-direction: column;
     align-items: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 555px) {
     .location article{
         align-items: center;
     }

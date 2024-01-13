@@ -8,52 +8,52 @@
 h1{
      font-family: var(--font-title), 'Arial', sans-serif;
      font-weight: 500;
-     font-size: 36;
+     font-size: 36px;
 }
 h2{
     font-family: var(--font-title) 'Arial', sans-serif;
     font-weight: 500;
-    font-size: 30;
+    font-size: 30px;
 }
 h3{
     font-family: var(--font-title) 'Arial', sans-serif;
     font-weight: 500;
-    font-size: 24;
+    font-size: 24px;
 }
 h4{
     font-family: var(--font-title) 'Arial', sans-serif;
     font-weight: 500;
-    font-size: 20;
+    font-size: 20px;
 }
 p{
     font-family: var(--font-p) 'Arial', sans-serif;
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
 }
     p a{
         font-family: var(--font-p) 'Arial', sans-serif;
         font-weight: 400;
-        font-size: 16;
+        font-size: 16px;
         color: var(--healthy-light);
     }
 link{
     font-family: var(--font-p);
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
     color: var(--healthy-light);
     text-decoration: underline;
 }
 nav{
     font-family: var(--font-p);
     font-weight: 700;
-    font-size: 20;
+    font-size: 20px;
     color: var(--white);
     text-decoration: none;
 }
 nav a{
     font-family: var(--font-p);
     font-weight: 700;
-    font-size: 20;
+    font-size: 20px;
     color: var(--white);
     transition: all 0.2s ease-in-out;
     text-decoration: none;
@@ -64,7 +64,7 @@ nav a:hover{
 blockquote{
     font-family: var(--font-title) 'Arial', sans-serif;
     font-weight: 600;
-    font-size: 20;
+    font-size: 20px;
     color: var(--healthy-dark);
 }
 
