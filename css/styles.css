@@ -205,6 +205,7 @@ main{
 footer{
     background-color: var(--black);
     color: var(--white);
+    width: 100%;
     padding: 20px 256px;
     margin-top: var(--section-gap);
     font-weight: 500;
@@ -230,7 +231,7 @@ footer p{
     color: var(--white);
     text-decoration: none;
 }
-footer .socials{
+.footer4 .socials{
     display: flex;
     flex-direction: row;
     justify-content: center;
