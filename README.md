@@ -1,8 +1,5 @@
-# nutriyou_website
-## Dokumentation
-### 1. Idee
-
 ![Logo nutriyou](https://176551-4.web.fhgr.ch/img/logo/nutriyou_logo_watermelon_colour.png)
+
 Projektdokumentation für das Fach Interaktive Medien | FHGR
 
 # nutriyou - Website
@@ -19,7 +16,7 @@ Projektdokumentation für das Fach Interaktive Medien | FHGR
 ## 1. Beschreibung
 Die nutriyou-Website ist ein Projekt, das darauf abzielt, Benutzern dabei zu helfen, ihre Ernährung zu optimieren und einen gesünderen Lebensstil zu fördern. Die Website bietet Funktionen wie das Herunterladen der nutriyou-App, Informationen zu den angebotenen Funktionen, Kundenbewertungen und Partnerinformationen.
 
-Besuchen Sie die Website: https://176551-4.web.fhgr.ch/index.html
+Besuchen Sie die Website: [nutriyou](https://176551-4.web.fhgr.ch/index.html)
 
 ## 2. Projektstruktur
 Die Website umfasst 5 Seiten. Die Projektstruktur umfasst verschiedene Abschnitte wie "Hero", "Features", "Reviews", "Partners" und vieles mehr. Der Code und die Ressourcen sind in übersichtlichen Ordnern organisiert, um die Wartbarkeit zu erleichtern.
@@ -47,7 +44,7 @@ Wunderbare Website wenn es um das Programmieren geht. Das war so ziemlich meine 
 [Flexbox Defense](http://www.flexboxdefense.com/)
 Spielend Flexbox lernen. Mit der Zeit wurde ich besser im flexxen. (Flexbox anwenden) Dieses Spiel hat einen grossen Teil dazu beigetragen.
 ### CSS Grid Generator
-[CSS Grid Generator] (https://cssgrid-generator.netlify.app/)
+[CSS Grid Generator](https://cssgrid-generator.netlify.app/)
 Für den .partnerArc und für den .footer habe ich jeweils Grid benutzt. Diese Website macht es möglich.
 ### GitHub Copilot
 Ich kann den TAB Button drücken und es schreibt von selber!
@@ -70,4 +67,4 @@ Bei Fragen oder Anregungen können Sie mich über die GitHub-Projektseite kontak
 
 Vielen Dank für Ihr Interesse an nutriyou!
 
-Ausserdem möchte ich mich für Meine Mitarbeiter, Coaches und Freunde bedanken, die mich dabei ünterstützt haben. Das gemeinsame rangehen und Diskussionen haben mir sehr geholfen.
+Ausserdem möchte ich mich für Meine Mitarbeiter, Coaches und Freunde bedanken, die mich dabei unterstützt haben. Das gemeinsame rangehen und Diskussionen haben mir sehr geholfen.
